@@ -2,7 +2,6 @@
 
 import hw4  # imports your hw2 module
 import requests
-import json
 
 submissionFile=open('hw4.py','r')
 postParams=hw4.yourSubmission()
