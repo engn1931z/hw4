@@ -1,4 +1,4 @@
-# Homework 2 Template Code
+# Homework 4 Template Code
 #
 # This initial helper code will contact the server to request a list of desired angles, and will turn these comma separated values into a python list called desiredAngles.
 #
