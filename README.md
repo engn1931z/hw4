@@ -9,4 +9,13 @@ To monitor the port, I would recommend the `socat` method that we explored in cl
 
 As demonstrated in class, the `hw4` file is an executable that can control a Thorlabs PRM1Z8 motorized rotation stage. Your goal for this assignment is to learn the serial commands that this program uses to control the stage, and demonstrate this knowledge by writing a python script that passes a set of precise motion commands to an virtual PRM1Z8 device online.
 
-The final submission code for the auto-grader will be posted shortly. For now, you can begin to download the `hw4` executable and test it to decipher the command structure.  (**Note that to run the executable, you can use the following terminal command: `sudo ./hw4` in the directory with the file.** The `./` prefix adds the current directory to the path when looking for executables, and sudo will probably be helpful when you are trying to sniff the port.)
+`hw4` that you will need to run on your RPi to decipher the command structure.  (**Note that to run the executable, you can use the following terminal command: `sudo ./hw4` in the directory with the file.** The `./` prefix adds the current directory to the path when looking for executables, and sudo will probably be helpful when you are trying to sniff the port.)
+
+`hw4.py` is a template code for the assignment. **Please review the comments at the top of that file.**
+
+`submit.py` is the script that will submit your code to the autograder. 
+
+**Note that you must 
+
+Please note you are welcome to try this assignment as many times as you would like. (There is no penalty for failed attempts, because I wanted to encourage you to practice, test, and debug.) **However, please make sure to obey the class collaboration policy --- do not share your code with others; please write and debug on your own!**
+
