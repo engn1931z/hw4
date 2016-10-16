@@ -33,7 +33,6 @@ desiredAngles=[float(x) for x in serverRequest.split(',')]
 ##################################################################
 ### YOUR CODE TO CREATE THE COMMAND SEQUENCE SHOULD GO BELOW HERE
 ##################################################################
-
 import struct
 # import anything else you might need here 
 
