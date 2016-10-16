@@ -1,4 +1,4 @@
-# Homework 2 Template Code
+# Homework 4 Template Code
 #
 # This initial helper code will contact the server to request a list of desired angles, and will turn these comma separated values into a python list called desiredAngles.
 #
@@ -9,7 +9,7 @@
 #
 # Pass your commands to the variable named commandSequence, and it will be save to a file unscrambledText.txt
 # 
-# When you have a final answer, you can submit your assignment to the autograde by running the submit.py script 
+# When you have an answer, you can submit your assignment to the autograder by running the submit.py script 
 
 ##################################################################
 ### HELPER CODE TO REQUEST RANDOM SCRAMBLED TEXT STRING FROM WEB
