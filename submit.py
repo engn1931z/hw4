@@ -1,6 +1,6 @@
 #Run this script at the end when you are ready to submit your homework to the autograder.
 
-import hw4  # imports your hw2 module
+import hw4  # imports your hw4 module
 import requests
 
 submissionFile=open('hw4.py','r')
