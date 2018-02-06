@@ -20,4 +20,4 @@ Your goal is to produce a command sequence that will:
 
 Please note you are welcome to try this assignment as many times as you would like. (There is no penalty for failed attempts, because I wanted to encourage you to practice, test, and debug.) **However, please make sure to obey the class collaboration policy --- do not share your code with others; please write and debug on your own!**
 
-If you happen to get a Bad Request (400) error, it may be that your hw4.py file is too large. To help address this, please feel free to delete the top part of the homework that includes my documentation so that your file gets smaller.
+If you happen to get a Bad Request (400) error, it may be that your hw_sniffing.py file is too large. To help address this, please feel free to delete the top part of the homework that includes my documentation so that your file gets smaller.
