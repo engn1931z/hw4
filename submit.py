@@ -5,8 +5,14 @@ import requests
 
 submissionFile=open('hw_sniffing.py','r')
 postParams=hw_sniffing.yourSubmission()
-del postParams["output"] 
-postData={"output":bytes(hw_sniffing.yourSubmission()["output"],encoding='iso-8859-1')}
+del postParams["output"]
+output=hw_sniffing.yourSubmission()["output"];
+if type(output)==bytes: # If bytes is returned, no encoding is needed.
+	postData={"output":output}
+elif type(output)==str:
+	postData={"output":bytes(hw_sniffing.yourSubmission()["output"],encoding='iso-8859-1')}
+ 	# If string is returned, encode it with iso-8859-1 
+ 	# Not using utf-8 because of complications with multi-byte encodings
 postHeaders={'content-type': 'application/octet-stream'}
 
 tokenFile=open('token','a+')
